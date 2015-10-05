@@ -1,0 +1,19 @@
+﻿Build started 05.10.2015 23:40:22.
+     1>Project "C:\Users\Андрей\Desktop\osisp_painter\Painter\Painter\Painter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Painter.cpp
+         Painter.cpp
+     1>c:\users\андрей\desktop\osisp_painter\painter\painter\painter.cpp(16): warning C4091: '' : ignored on left of 'HPEN__ *' when no variable is declared
+     1>c:\users\андрей\desktop\osisp_painter\painter\painter\painter.cpp(158): warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\андрей\desktop\osisp_painter\painter\painter\painter.cpp(100): warning C4101: 'ps' : unreferenced local variable
+     1>c:\users\андрей\desktop\osisp_painter\painter\painter\painter.cpp(102): warning C4101: 'hFont' : unreferenced local variable
+     1>c:\users\андрей\desktop\osisp_painter\painter\painter\painter.cpp(101): warning C4101: 'lf' : unreferenced local variable
+     1>c:\users\андрей\desktop\osisp_painter\painter\painter\painter.cpp(104): warning C4101: 'hBrush' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Андрей\Desktop\osisp_painter\Painter\Debug\Painter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Андрей\Desktop\osisp_painter\Painter\Debug\Painter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Андрей\Desktop\osisp_painter\Painter\Debug\Painter.lib" /MACHINE:X86 Debug\Painter.obj
+         Painter.vcxproj -> C:\Users\Андрей\Desktop\osisp_painter\Painter\Debug\Painter.exe
+     1>Done Building Project "C:\Users\Андрей\Desktop\osisp_painter\Painter\Painter\Painter.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52
